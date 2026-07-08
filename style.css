@@ -28,13 +28,10 @@ body {
 }
 .hero-logo {
     display: block;
-    width: 320px;
+    width: 340px;
     max-width: 80%;
     height: auto;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
 }
 .eyebrow {
     color: #8A6F3D;
