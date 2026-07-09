@@ -103,7 +103,45 @@ footer {
     font-size: 13px;
     letter-spacing: 1px;
 }
+#trade-resources {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #F8F3EA;
+}
 
+#trade-resources p {
+    color: #5F4A3D;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.download-btn {
+    display: inline-block;
+    width: 320px;
+    max-width: 90%;
+    padding: 14px 22px;
+    background-color: #6E1F2A;
+    color: #F8F3EA;
+    text-decoration: none;
+    border: 1px solid #6E1F2A;
+    border-radius: 6px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: transparent;
+    color: #6E1F2A;
+}
 footer p {
     margin: 6px 0;
 }
