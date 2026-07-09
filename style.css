@@ -117,16 +117,19 @@ footer {
 
 .download-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .download-btn {
-    display: inline-block;
-    width: 320px;
-    max-width: 90%;
-    padding: 14px 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
     background-color: #6E1F2A;
     color: #F8F3EA;
     text-decoration: none;
