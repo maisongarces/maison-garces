@@ -83,8 +83,8 @@ h2 {
 .button {
     display: inline-block;
     padding: 15px 34px;
-    border: 1px solid #6E1F2A;
-    background-color: #6E1F2A;
+    border: 1px solid #D97E36;
+    background-color: #D97E36;
     color: #F8F3EA;
     text-decoration: none;
     font-size: 13px;
@@ -95,11 +95,11 @@ h2 {
 
 .button:hover {
     background-color: transparent;
-    color: #6E1F2A;
+    color: #D97E36;
 }
 
 .button:focus {
-    outline: 2px solid #6E1F2A;
+    outline: 2px solid #D97E36;
     outline-offset: 2px;
 }
 
@@ -150,11 +150,11 @@ footer {
 
     padding: 14px 18px;
 
-    background-color: #6E1F2A;
+    background-color: #D97E36;
     color: #F8F3EA;
     text-decoration: none;
 
-    border: 1px solid #6E1F2A;
+    border: 1px solid #D97E36;
     border-radius: 6px;
 
     font-size: 12px;
@@ -168,11 +168,11 @@ footer {
 
 .download-btn:hover {
     background-color: transparent;
-    color: #6E1F2A;
+    color: #D97E36;
 }
 
 .download-btn:focus {
-    outline: 2px solid #6E1F2A;
+    outline: 2px solid #D97E36;
     outline-offset: 2px;
 }
 
