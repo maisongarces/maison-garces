@@ -102,7 +102,10 @@ footer {
     color: #F8F3EA;
     font-size: 13px;
     letter-spacing: 1px;
-}
+/* ==========================
+   Trade Resources Section
+========================== */
+
 #trade-resources {
     text-align: center;
     padding: 60px 20px;
@@ -113,38 +116,64 @@ footer {
     color: #5F4A3D;
     margin-bottom: 30px;
     font-size: 16px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .download-buttons {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-top: 30px;
+    align-items: stretch;
+    gap: 18px;
+    width: 100%;
+    max-width: 900px;
+    margin: 35px auto 0;
 }
 
 .download-btn {
-    display: inline-flex;
+    flex: 1;
+    max-width: 260px;
+    min-height: 60px;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 260px;
-    min-height: 52px;
+
     padding: 14px 18px;
+
     background-color: #6E1F2A;
     color: #F8F3EA;
     text-decoration: none;
+
     border: 1px solid #6E1F2A;
     border-radius: 6px;
+
     font-size: 12px;
-    letter-spacing: 0.8px;
+    font-weight: 500;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
+
     transition: all 0.3s ease;
 }
 
 .download-btn:hover {
-    background: transparent;
+    background-color: transparent;
     color: #6E1F2A;
+}
+
+@media (max-width: 768px) {
+    .download-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-btn {
+        width: 100%;
+        max-width: 320px;
+    }
 }
 footer p {
     margin: 6px 0;
