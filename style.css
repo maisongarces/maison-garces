@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #F8F3EA;
     color: #3A2A22;
@@ -65,7 +69,6 @@ h2 {
     letter-spacing: 6px;
     text-transform: uppercase;
     text-align: center;
-    white-space: nowrap;
     margin-bottom: 30px;
 }
 
@@ -93,6 +96,11 @@ h2 {
 .button:hover {
     background-color: transparent;
     color: #6E1F2A;
+}
+
+.button:focus {
+    outline: 2px solid #6E1F2A;
+    outline-offset: 2px;
 }
 
 footer {
@@ -163,6 +171,11 @@ footer {
     color: #6E1F2A;
 }
 
+.download-btn:focus {
+    outline: 2px solid #6E1F2A;
+    outline-offset: 2px;
+}
+
 @media (max-width: 768px) {
     .download-buttons {
         flex-direction: column;
@@ -181,6 +194,10 @@ footer p {
 @media (max-width: 600px) {
     .hero {
         padding: 48px 20px;
+    }
+
+    h2 {
+        white-space: normal;
     }
 
     .description {
