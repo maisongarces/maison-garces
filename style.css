@@ -124,21 +124,22 @@ footer {
 }
 
 .download-btn {
-    display: inline-block;
-    padding: 14px 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    min-height: 52px;
+    padding: 14px 18px;
     background-color: #6E1F2A;
     color: #F8F3EA;
     text-decoration: none;
     border: 1px solid #6E1F2A;
     border-radius: 6px;
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
+    text-align: center;
     transition: all 0.3s ease;
-
-    /* IMPORTANT */
-    width: auto;
-    max-width: none;
 }
 
 .download-btn:hover {
